@@ -49,6 +49,10 @@ section {
     text-align: center;
 }
 
+#profile p{
+    font-family: OpenSans-Bold;
+}
+
 .profile{
     display: flex;
 }
@@ -158,5 +162,10 @@ footer {
 
     #profile p{
         font-size: 20px;
+        font-family: OpenSans-Bold;
+    }
+
+    #goals h2{
+      font-size: 40px;
     }
 }
