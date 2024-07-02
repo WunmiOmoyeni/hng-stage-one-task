@@ -1,0 +1,156 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Medium;
+    src: url(fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#profile h2 {
+    text-align: center;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile-text{
+    margin-top: 540px;
+    margin-left: 50px;
+}
+
+h2 {
+    color: #333;
+    font-size: 50px;
+    font-family: OpenSans-Bold;
+    text-align: center;
+}
+
+p{
+    font-family: OpenSans-Medium;
+    font-size: 30px;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer{
+    font-size: 10px;
+}
+
+.goal-year {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.goal-year ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    font-family: OpenSans-Bold;
+}
+
+.goal-year li{
+    font-family: OpenSans-Medium;
+}
+
+/* .goal-year ul ul {
+    list-style-type: circle;
+} */
+
+#links{
+    text-align: center;
+}
+
+.time{
+    text-align: center;
+    font-size: 50px;
+    font-family: OpenSans-Bold;
+}
+
+.time p{
+    font-size: 20px;
+    font-family: OpenSans-Regular;
+}
+
+@media (max-width: 1024px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile-text{
+        margin: 0;
+    }
+
+    #profile p{
+        font-size: 20px;
+    }
+}
